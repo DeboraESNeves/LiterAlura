@@ -1,2 +1,5 @@
-package br.com.debora.literalura.service;public interface IConverteDados {
+package br.com.debora.literalura.service;
+
+public interface IConverteDados {
+    <T> T obterDados(String json, Class<T> classe);
 }
